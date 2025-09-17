@@ -1,9 +1,10 @@
-def is_win(game):
-    
-    print("patch")
-    
-    win = False
-    # Check rows
+
+
+# Author  陈玺 72510363 glaxry
+# Reviewer 1:邓梦涛，72510744，Tonydmt
+# Reviewer 2：崔颢 ，72510596，chch0212
+# Reviewer 3: 文艺翔，72510836 EthanGotIt
+# Reviewer 4:王芃程. 72510258 wxy1669386846
     if game[0][0] == game[0][1] == game[0][2] and (game[0][0] == 'X' or game[0][0] == 'O'):
         win = True
     if game[1][0] == game[1][1] == game[1][2] and (game[1][0] == 'X' or game[1][0] == 'O'):
