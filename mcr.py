@@ -1,4 +1,7 @@
 def is_win(game):
+    
+    print("patch")
+    
     win = False
     # Check rows
     if game[0][0] == game[0][1] == game[0][2] and (game[0][0] == 'X' or game[0][0] == 'O'):
